@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <title>Oculus - Next Generation VR</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header" id="header">
+      <div class="header-content">
+        <img class="header-logo" id="header-img" src="./assets/images/logo.svg" alt="Oculus Logo">
+        <nav class="nav" id="nav-bar">
+          <a class="nav-link" href="#video-section">View Product</a>
+          <a class="nav-link" href="#pricing">Pricing</a>
+          <a class="nav-link" href="#subscribe">Subscribe</a>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Ultimate power meets premium comfort</h1>
+        <p class="hero-desc">Experience gaming, fitness and entertainment, including your favorite apps, like Facebook, Instagram and WhatsApp—all
+          within headset.</p>
+        <a href="#pricing" class="hero-button">Pre-Order Now</a>
+      </div>
+    </section>
+    <section id="video-section" class="video-section scroll-margin">
+      <div class="video-content">
+        <h2 class="section-title">View Product</h2>
+        <iframe class="video" id="video" width="1328" height="747" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section id="pricing" class="pricing-section scroll-margin">
+      <div class="pricing-content">
+        <h2 class="section-title">Pricing</h2>
+        <div class="pricing-cards">
+          <div class="pricing-card">
+            <h3 class="plan-name">Explorer</h3>
+            <div class="plan-price">$249.99</div>
+            <p class="plan-desc">Unreal device. Unreal price.</p>
+            <ul class="features-list">
+              <li class="feature-item">1832x1920 pixels per eye</li>
+              <li class="feature-item">Horizontal FOV 90 vertical</li>
+              <li class="feature-item">128GB Storage</li>
+              <li class="feature-item">Full color passthrough (4MP, 18 PPD)</li>
+              <li class="feature-item">8GB RAM </li>
+              <li class="feature-item">Snapdragon XR2 Gen 2</li>
+              <li class="feature-item">4324 mAh Battery</li>
+            </ul>
+            <button class="plan-button">Choose Explorer</button>
+          </div>
+          <div class="pricing-card featured">
+            <h3 class="plan-name">Professional</h3>
+            <div class="plan-price">$329.99</div>
+            <p class="plan-desc">Level up with double the storage.</p>
+            <ul class="features-list">
+              <li class="feature-item">1832x1920 pixels per eye</li>
+              <li class="feature-item">Horizontal FOV 90 vertical</li>
+              <li class="feature-item">256GB Storage</li>
+              <li class="feature-item">Full color passthrough (4MP, 18 PPD)</li>
+              <li class="feature-item">8GB RAM </li>
+              <li class="feature-item">Snapdragon XR2 Gen 2</li>
+              <li class="feature-item">4324 mAh Battery</li>
+            </ul>
+            <button class="plan-button">Choose Professional</button>
+          </div>
+          <div class="pricing-card">
+            <h3 class="plan-name">Ultimate</h3>
+            <div class="plan-price">$499.99</div>
+            <p class="plan-desc">The ultimate experience.</p>
+            <ul class="features-list">
+              <li class="feature-item">2064 x 2208 pixels per eye</li>
+              <li class="feature-item">Horizontal FOV 96 vertical</li>
+              <li class="feature-item">512GB Storage</li>
+              <li class="feature-item">Full color passthrough (4MP, 18 PPD)</li>
+              <li class="feature-item">8GB RAM </li>
+              <li class="feature-item">Snapdragon XR2 Gen 2</li>
+              <li class="feature-item">5060 mAh Battery</li>
+            </ul>
+            <button class="plan-button">Choose Ultimate</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="subscribe" class="cta-section scroll-margin">
+      <div class="cta-content">
+        <h2 class="cta-title">Explore on a platform you can trust</h2>
+        <p class="cta-desc">Explore virtual reality on a platform you can trust, with enhanced privacy features that encrypt your data and supervision
+          tools that keep content friendly for everyone in the family.</p>
+        <form class="email-form" id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+          <input type="email" id="email" name="email" class="email-input" placeholder="Enter your email address" required>
+          <input type="submit" id="submit" class="submit-button" value="Subscribe">
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-content">
+        <p>© 2025 Oculus. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
